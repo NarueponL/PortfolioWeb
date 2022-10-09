@@ -1,0 +1,50 @@
+body{
+    background-color: #898F9C;
+    font-family: Arial;
+}
+
+h1{
+    background-color: #4267B2;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+#topic1{
+    background-color: white;
+    padding: 20pt;
+}
+
+h2{
+    font-weight: bold;
+}
+
+h3{
+    background-color: #FFFFFF;
+    color: #898F9C;
+    padding: 10pt;    
+}
+
+.Head{
+    font-weight: bold;
+}
+
+textarea{
+    width: 400px;
+    height: auto;
+    border-color:#f3f3f3;
+}
+
+.Border{
+    background-color: #f3f3f3;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+}

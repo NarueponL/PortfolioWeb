@@ -1,0 +1,490 @@
+/*-----body-----*/
+body{
+    margin: 0%;
+    background-color: #6E507D;
+}
+
+#chickenProject{
+    margin: 0%;
+    background-color: #BF8415;
+
+}
+
+#profilePicture > img{
+    border-radius: 50%;
+    max-width: 300px;
+    height: auto;
+}
+
+a>img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+img{
+    max-width: 100px;
+    height: auto;
+}
+
+#marginText{
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+#marginHeaderText{
+    padding-top: 50px;
+}
+
+/*ref : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate1*/
+
+button{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #412F4A;
+    border: 1px solid #412F4A;
+    color: #ffffff;
+    text-align: center;;
+    padding: 5px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+  
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+  
+button:hover span {
+    padding-right: 15px;
+}
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.GameButton{
+    color: #F2CB05;
+    background-color: #54361B;
+    border: 3px solid #301F0E;
+    font-weight: bolder;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+/*-----grid pc-----*/
+.grid-container{
+    display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-container > div{
+    font-size: 20px;
+	text-align: center;  
+}
+
+#mainHeader{
+    grid-column: 1 / span 4;
+    background-color: #2F2D30;
+    font-weight: bold;
+    color: white;
+}
+
+#profilePicture{
+    padding: 20px 0;
+    grid-column: 1 / span 2;
+}
+
+#aboutMe{
+    padding: 70px 0;
+    text-align: center;
+    grid-column: 3 / span 2; 
+    color: white;  
+}
+
+#skillHeader{
+    color: white;
+    background-color: #412F4A;
+    text-align: left;
+    padding-left: 5%;
+    grid-column: 1 / span 4 ;    
+}
+
+#skill1{
+    background-color: #412F4A;
+    box-shadow: #412F4A 0px 13px 27px -5px, #6E507D 0px 8px 16px -8px; /*ref : https://getcssscan.com/css-box-shadow-examples*/
+    color: #C5BDC9;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    grid-column: 1 / span 1 ;
+}
+
+#skill2{
+    background-color: #412F4A;
+    box-shadow: #412F4A 0px 13px 27px -5px, #6E507D 0px 8px 16px -8px; /*ref : https://getcssscan.com/css-box-shadow-examples*/
+    color: #C5BDC9;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    grid-column: 2 / span 1 ;
+}
+
+#skill3{
+    background-color: #412F4A;
+    box-shadow: #412F4A 0px 13px 27px -5px, #6E507D 0px 8px 16px -8px; /*ref : https://getcssscan.com/css-box-shadow-examples*/
+    color: #C5BDC9;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    grid-column: 3 / span 1 ;
+}
+
+#skill4{
+    background-color: #412F4A;
+    box-shadow: #412F4A 0px 13px 27px -5px, #6E507D 0px 8px 16px -8px; /*ref : https://getcssscan.com/css-box-shadow-examples*/
+    color: #C5BDC9;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    grid-column: 4 / span 1 ;
+}
+
+#gameProject{
+    color: white;
+    height: 150px;
+    margin-top: 20px;
+    padding: 100px 0;
+    text-align: center;
+    grid-column: 1 / span 4 ;  
+    background-image: url("myProject_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#assignmentHeader {
+    color: white;
+    background-color: #412F4A;
+    text-align: left;
+    padding-left: 5%;
+    grid-column: 1 / span 4 ;
+}
+
+#assignmentList{
+    background-color: #6E507D;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+    padding-left: 5%;
+    grid-column: 1 / span 4 ;
+}
+#contact{
+    color: #C5BDC9;
+    background-color: #2F2D30;
+    text-align: center;
+    padding-left: 5%;
+    grid-column: 1 / span 4 ;
+    height: 160px;
+}
+
+#projectHeader{
+    color: white;
+    height: 200px;
+    padding: 100px 0;
+    text-align: center;
+    grid-column: 1 / span 4 ;  
+    background-image: url("myProject_bg.png");
+    filter: grayscale(50%); /*ref : https://www.w3schools.com/cssref/css3_pr_filter.asp*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+#aboutGameHeader{    
+    background-color: #734812;
+    grid-column: 1 / span 4 ; 
+}
+
+#aboutGameDescription{    
+    background-color: #A67E4C;
+    grid-column: 1 / span 4 ; 
+}
+
+#HowtoPlayHeader{
+    background-color: #734812;
+    grid-column: 1 / span 4 ; 
+}
+#how1{
+    background-color: #828528;
+    color: black;
+    padding-top: 10px;
+    grid-column: 1 / span 1 ; 
+}
+#how2{
+    background-color: #8C4C14;
+    color: black;
+    padding-top: 10px;
+    grid-column: 2 / span 1 ; 
+}
+#how3{
+    background-color: #732D14;
+    color: black;
+    padding-top: 10px;
+    grid-column: 3 / span 1 ; 
+}
+#how4{
+    background-color: #BF8415;
+    color: black;
+    padding-top: 10px;
+    grid-column: 4 / span 1 ; 
+}
+#download{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 19px 5px, rgba(0, 0, 0, 0.22) 0px 0px 15px 2px; /*ref : https://getcssscan.com/css-box-shadow-examples*/
+    background-color: #8C391B;
+    grid-column: 1 / span 4 ;
+    padding: 20px;
+}
+
+
+
+
+
+
+/*-----grid tablet-----*/
+@media only screen and (max-width: 768px){
+    #profilePicture > img{
+        border-radius: 50%;
+        max-width: 225px;
+        padding: 5px ,0;
+        height: auto;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .grid-container > div{
+        font-size: 20px;
+        text-align: center;  
+    }
+    
+    #mainHeader{
+        grid-column: 1 / span 2;
+    }
+    
+    #profilePicture{
+        grid-column: 1 / span 1;
+    }
+    
+    #aboutMe{
+        padding: 10px 0;
+        grid-column: 2 / span 1;
+    }
+
+
+    #skillHeader{
+        text-align: left;
+        padding-left: 5%;
+        grid-column: 1 / span 2 ;
+    }
+    
+    #skill1{
+        grid-column: 1 / span 1 ;
+    }
+    
+    #skill2{
+        grid-column: 2 / span 1 ;
+    }
+    
+    #skill3{
+        grid-column: 1 / span 1 ;
+    }
+    
+    #skill4{
+        grid-column: 2 / span 1 ;
+    }
+    
+    #gameProject{
+        grid-column: 1 / span 2 ;
+    }
+    
+    #assignmentHeader {
+        text-align: left;
+        padding-left: 5%;
+        grid-column: 1 / span 2 ;
+    }
+    
+    #assignmentList{
+        text-align: left;
+        padding-left: 5%;
+        grid-column: 1 / span 2 ;
+    }    
+
+    #contact{
+        padding-left: 5%;
+        grid-column: 1 / span 2 ;
+    }
+
+
+
+
+
+    #aboutGameHeader{    
+        grid-column: 1 / span 2 ; 
+    }
+    
+    #aboutGameDescription{    
+        grid-column: 1 / span 2 ; 
+    }
+    
+    #HowtoPlayHeader{
+        grid-column: 1 / span 2 ; 
+    }
+    #how1{
+        grid-column: 1 / span 1 ; 
+    }
+    #how2{
+        grid-column: 2 / span 1 ; 
+    }
+    #how3{
+        grid-column: 1 / span 1 ; 
+    }
+    #how4{
+        grid-column: 2 / span 1 ; 
+    }
+    #download{
+        grid-column: 1 / span 2 ; 
+    }
+
+}
+
+
+/*-----grid phone-----*/
+@media only screen and (max-width: 500px){
+    #profilePicture > img{
+        border-radius: 50%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .grid-container > div{
+        font-size: 20px;
+        text-align: center;  
+    }
+    
+    #mainHeader{
+        grid-column: 1 / span 1;
+    }
+    
+    #profilePicture{
+        grid-column: 1 / span 1;
+    }
+    
+    #aboutMe{
+        padding: 0%;
+        grid-column: 1 / span 1;
+    }
+    
+    #skillHeader{
+        text-align: center;
+        padding-left: 0%;
+        grid-column: 1 / span 1 ;
+    }
+    
+    #skill1{
+        grid-column: 1 / span 1 ;
+    }
+    
+    #skill2{
+        grid-column: 1 / span 1 ;
+    }
+    
+    #skill3{
+        grid-column: 1 / span 1 ;
+    }
+    
+    #skill4{
+        grid-column: 1 / span 1 ;
+    }
+    
+    #gameProject{
+        grid-column: 1 / span 1 ;
+    }
+    
+    #assignmentHeader {
+        text-align: center;
+        padding-left: 0%;
+        grid-column: 1 / span 1 ;
+    }
+    
+    #assignmentList{        
+        text-align: left;
+        padding-left: 5%;
+        grid-column: 1 / span 1 ;
+    }
+
+    #contact{
+        padding-left: 0%;
+        grid-column: 1 / span 1 ;
+    }
+
+
+
+
+
+    #aboutGameHeader{    
+        grid-column: 1 / span 1 ; 
+    }
+    
+    #aboutGameDescription{    
+        grid-column: 1 / span 1 ; 
+    }
+    
+    #HowtoPlayHeader{
+        grid-column: 1 / span 1 ; 
+    }
+    #how1{
+        grid-column: 1 / span 1 ; 
+    }
+    #how2{
+        grid-column: 1 / span 1 ; 
+    }
+    #how3{
+        grid-column: 1 / span 1 ; 
+    }
+    #how4{
+        grid-column: 1 / span 1 ; 
+    }
+    #download{
+        grid-column: 1 / span 1 ; 
+    }
+}
